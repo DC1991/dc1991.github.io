@@ -7,10 +7,21 @@ importance: 1
 category: Category-level pose
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
+
+In this work, we propose a novel pipeline, named FS-Net, for category-level 6D pose estimation. Our framework is built on our previous work [G2L-Net](https://github.com/DC1991/G2L_Net), with the following Contributions:
+ 1. New latent feature learning  
+        >>> [3D graph convolution](https://github.com/j1a0m0e4sNTU/3dgcn/issues) based observed points reconstruction
+
+ 2. New rotation representation  
+        >>> Decomposable vector-based rotation representation
+
+ 3. New 3D data augmentation  
+        >>> Box-cage based, online 3D data augmentation
+        
+ 
+Due to our smart design, the proposed FS-Net runs at 20 FPS with state-of-the-art performance.      
+        
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
